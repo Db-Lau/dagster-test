@@ -1,0 +1,5 @@
+[32m2025-05-23 09:43:40 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 62b95f3b-d3eb-44b1-81eb-1763fa53f86d - 17494 - LOGS_CAPTURED - Started capturing logs in process (pid: 17494).
+[32m2025-05-23 09:43:40 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 62b95f3b-d3eb-44b1-81eb-1763fa53f86d - 17494 - dlt_load - STEP_START - Started execution of step "dlt_load".
+[32m2025-05-23 09:43:58 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 62b95f3b-d3eb-44b1-81eb-1763fa53f86d - 17494 - dlt_load - STEP_OUTPUT - Yielded output "dlt_jobads_source_get_hits" of type "Nothing". (Type check passed).
+[32m2025-05-23 09:43:58 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 62b95f3b-d3eb-44b1-81eb-1763fa53f86d - 17494 - dlt_load - ASSET_MATERIALIZATION - Materialized value dlt_jobads_source_get_hits.
+[32m2025-05-23 09:43:58 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 62b95f3b-d3eb-44b1-81eb-1763fa53f86d - 17494 - dlt_load - STEP_SUCCESS - Finished execution of step "dlt_load" in 18.84s.
