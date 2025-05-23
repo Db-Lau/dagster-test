@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-195cd486c87-f9352327b444e77": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "ads.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/Users/debbielau/Documents/Course Prep/data_engineering_vt2025_prep/06_setup_dbt/dbt_code/ads.db",
+				"url": "jdbc:duckdb:/Users/debbielau/Documents/Course Prep/data_engineering_vt2025_prep/06_setup_dbt/dbt_code/ads.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
